@@ -1,0 +1,19 @@
+{
+    "name": "Unity.CelAnimation.Editor",
+    "rootNamespace": "CelAnimation",
+    "references": [
+        "GUID:3416c5051e7fa9f4e9335227e96f0564",
+        "GUID:efe9fec265db1de43804df5fc14bd7f1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
