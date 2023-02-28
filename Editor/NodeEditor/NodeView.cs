@@ -11,7 +11,7 @@ public class NodeView : UnityEditor.Experimental.GraphView.Node
     public Action<NodeView> OnNodeDeselected;
 
     public NodeView(CelAnimation.CelAnimation celAnimation)
-        : base("Assets/_Src/Scripts/CelAnimation/Editor/NodeEditor/NodeView.uxml")
+        : base("Packages/com.poxynam.celanimation/Editor/NodeEditor/NodeView.uxml")
     {
         this.animation = celAnimation;
         this.title = celAnimation.name;
