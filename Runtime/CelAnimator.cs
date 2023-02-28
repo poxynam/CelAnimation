@@ -67,6 +67,9 @@ namespace CelAnimation
             _currentAnimation ??= _controller.animations?.FirstOrDefault();
 
             _animationAmount = _controller.animations!.Count;
+
+            if (_animateOnAwake)
+                _animate = true;
         }
 
         private void Update()
@@ -88,7 +91,7 @@ namespace CelAnimation
             if (!_animate)
                 return;
 
-            if (_currentAnimation != _nextAnimation)
+            if (_currentAnimation != _nextAnimation && _nextAnimation)
             {
                 _currentAnimation = _nextAnimation;
                 _currentFrameCount = _currentAnimation!.GetCelCount();

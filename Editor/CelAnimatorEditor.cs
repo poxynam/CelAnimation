@@ -35,5 +35,7 @@ public class CelAnimatorEditor : Editor
             "Animation Count: " + _animationAmount.intValue + " FPS: " + _fps.intValue,
             MessageType.Info
         );
+
+        serializedObject.ApplyModifiedProperties();
     }
 }
