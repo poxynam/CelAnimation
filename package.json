@@ -1,13 +1,13 @@
 {
     "name": "com.poxynam.celanimation",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "displayName": "CelAnimation",
     "description": "Custom Animator",
     "unity": "2022.2",
     "unityRelease": "3f1",
     "author": {
         "name": "poxynam",
-        "email": "poxynam@gmail.com",
+        "email": "poxynam+business@gmail.com",
         "url": "https://github.com/poxynam"
     }
 }
