@@ -4,6 +4,11 @@ This is my custom "animation system" for Unity. It only includes features that I
 
 A LOT of the code was "borrowed" from aarthificial's [Reanimator](https://github.com/aarthificial/reanimation). Licensing information in Third Party Notices.md. (If I did this completely wrong - which I most likely did -, reach out thank you.) Also followed [TheKiwiCoder's](https://www.youtube.com/@TheKiwiCoder) tutorials to create the animation controller UI.
 
+You can install this as a [Unity package](https://docs.unity3d.com/Manual/upm-ui-giturl.html) using the url:
+
+```
+https://github.com/poxynam/CelAnimation.git
+```
 
 
 ### There is no documentation, but here is a rundown:
