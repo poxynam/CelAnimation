@@ -102,14 +102,12 @@ namespace CelAnimation
                 _currentFrameCount = _currentAnimation.GetCelCount();
             }
 
-            if (_currentFrame >= _currentFrameCount)
-            {
-                _currentFrame = 0;
-            }
-
-            _currentAnimation!.Play(_renderer, _currentFrame, flip, gameObject);
-
-            _currentFrame += 1;
+            _currentAnimation.Play(
+                _renderer,
+                _currentFrame++ % _currentFrameCount,
+                flip,
+                gameObject
+            );
         }
     }
 }
